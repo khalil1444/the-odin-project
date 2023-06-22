@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function add7(n) {
+        return n + 7;
+      }
+      function multiply(n1, n2) {
+        return n1 * n2;
+      }
+      function capitalize(string) {
+        string = string.toLowerCase();
+        string = string.charAt(0).toUpperCase() + string.slice(1);
+        return string;
+      }
+      function lastLetter(string) {
+        return string.charAt(string.length - 1);
+      }
+      console.log(add7(5));
+      console.log(multiply(7, 5));
+      console.log(capitalize("mamma"));
+      console.log(lastLetter("mamma"));
+    </script>
+  </body>
+</html>
